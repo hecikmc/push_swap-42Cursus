@@ -115,4 +115,38 @@ $> bash myowntest.sh
 ```shell
 $> bash myowntest5.sh
 ```
-* To **check 
+* To **check a full program** you can use the file (sh) 'push_swap_test.sh', wich tests check all the input errors, to sort basic input (0 - 4 elements), to sort 5 elements, to sort less than 100 elements, to sort less than 500 elements and a huge battery of random tests that also check for leaks. I appreciate this test carried out by **gmartin99** ([github profile](https://github.com/gemartin99)), you can find more details of the test in this [link](https://github.com/gemartin99/Push-Swap-Tester).
+```shell
+$> bash push_swap_test.sh
+```
+
+## Visualizer
+
+To visually see the movement of elements between the two stacks and check that they are finally ordered you can use 'push_swap_test.sh' using the next comand:
+```shell
+$> bash push_swap_test.sh -v 'NUMBER OF ELEMENTS'
+
+For example:
+$> bash push_swap_test.sh -v 200
+```
+It's looks like this:
+<p align="center">
+<img width="597" alt="212369245-54455057-43d9-42c5-a916-a825ff505813" src="https://user-images.githubusercontent.com/121127625/229173665-9795fa6c-c002-47e3-9acd-b66c870f3d6d.png">
+</p>
+
+#### Visualizer controls 🕹
+
+|KEY|ACTION|
+|---|---|
+|`I`| Step by Step instructions|
+|`S`| Run all the instructions|
+|`P`| Pause |
+|`1`| exec 'sa'|
+|`2`| exec 'sb'|
+|`3`| exec 'ra'|
+|`4`| exec 'rb'|
+|`5`| exec 'rra'|
+|`6`| exec 'rrb'|
+|`7`| exec 'pa'|
+|`8`| exec 'pb'|
+|`ESC ❌`|Close|
