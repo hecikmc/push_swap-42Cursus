@@ -1,0 +1,6 @@
+push_swap
+*.txt
+*.o
+*.a
+.DS_Store
+0
