@@ -7,6 +7,10 @@ This project **sorts data into a stack** (int array), with a **limited set of in
 The maximum grade that can be aspired to with this algorithm is 90 points, including some improvements in the code. 
 I chose this algorithm because it is very easy to understand and the time to invest in its development is minimal compared to other sorting algorithms.
 
+<p align="center">
+<img width="500" alt="Screen Shot 2023-03-30 at 1 35 07 PM" src="https://github.com/hecikmc/push_swap-42Cursus/assets/121127625/6f755fda-9c88-4545-9f6f-bf71cc511f87">
+</p>
+
 <img width="1014" alt="Screen Shot 2023-03-30 at 1 35 07 PM" src="https://user-images.githubusercontent.com/121127625/228823652-a0c1bd4a-4991-42d7-bc12-42eb442be9d3.png">
 
 
